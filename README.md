@@ -12,3 +12,6 @@ test link: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getp
 > pageToken is handled by using JWT, which is implemented in `TokenService`
 
 > to see the difference between optimized deck detail and unoptimized one, use `optimize` param when send request, which is set to 1 as optimized default and 0 denotes unoptimized.
+
+## Notes
+I assume that all the urls to be requestd are valid. All decks and cards exist. Since it's a prototype, 404 error is not handled.
