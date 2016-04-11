@@ -14,4 +14,5 @@ test link: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getp
 > to see the difference between optimized deck detail and unoptimized one, use `optimize` param when send request, which is set to 1 as optimized default and 0 denotes unoptimized.
 
 ## Notes
-I assume that all the urls to be requestd are valid. All decks and cards exist. Since it's a prototype, 404 error is not handled.
+1. I assume that all the urls to be requestd are valid. All decks and cards exist. Since it's a prototype, 404 error is not handled.
+2. I created 100 decks in the in-mem sql, so the estimatedResult will alwasy stay at 100
